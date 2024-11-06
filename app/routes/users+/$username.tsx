@@ -75,7 +75,7 @@ export default function ProfileRoute() {
 							<>
 								<Button asChild>
 									<Link to="notes" prefetch="intent">
-										My notes
+										My contributions
 									</Link>
 								</Button>
 								<Button asChild>
