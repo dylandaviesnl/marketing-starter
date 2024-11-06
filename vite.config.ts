@@ -86,10 +86,6 @@ export default defineConfig({
 					},
 				})
 			: null,
-		sentryVitePlugin({
-			org: 'dylan-davies',
-			project: 'marketing-starter',
-		}),
 	],
 	test: {
 		include: ['./app/**/*.test.{ts,tsx}'],
